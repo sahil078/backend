@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+coverage/
+*.lcov
+
+# Miscellaneous
+*.tgz
+*.gz
+
+# Optional: If you are using Docker
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Optional: If you are using PM2
+.pm2/
